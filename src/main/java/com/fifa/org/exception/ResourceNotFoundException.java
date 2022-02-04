@@ -1,5 +1,6 @@
 package com.fifa.org.exception;
 
+@SuppressWarnings("serial")
 public class ResourceNotFoundException extends RuntimeException{
 	private String resourceName;
 	private String fieldName;
